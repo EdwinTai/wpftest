@@ -9,6 +9,8 @@
     <Grid>
         <Button x:Name="ChromeButton" Content="Open Google in Chrome" HorizontalAlignment="Left" Margin="189,152,0,0" VerticalAlignment="Top" Click="ChromeButton_Click"/>
         <Button x:Name="EdgeButton" Content="Open Google in Edge" HorizontalAlignment="Left" Margin="473,152,0,0" VerticalAlignment="Top" Click="EdgeButton_Click"/>
+        <Button x:Name="checkupdate" Content="AutoUpdate.NET" HorizontalAlignment="Left" Margin="236,84,0,0" VerticalAlignment="Top" ButtonBase.Click="checkupdate_Click"/>
+        <Button x:Name="WinSparkle" Content="WinSparkle Update" HorizontalAlignment="Left" Margin="506,84,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>
