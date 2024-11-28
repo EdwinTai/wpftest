@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title>MyApp Updates</title>
+		<link>https://example.com</link>
+		<description>Latest updates for MyApp</description>
+		<item>
+			<title>Version 1.1.0</title>
+			<sparkle:releaseNotesLink>https://example.com/release-notes/1.1.0.html</sparkle:releaseNotesLink>
+			<sparkle:version>1.1.0</sparkle:version>
+			<sparkle:minimumSystemVersion>10.0.0</sparkle:minimumSystemVersion>
+			<enclosure url="https://example.com/downloads/MyApp-1.1.0.exe" sparkle:version="1.1.0" sparkle:installerArguments="/silent" length="12345678" type="application/octet-stream"/>
+			<pubDate>Tue, 27 Nov 2024 10:00:00 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
