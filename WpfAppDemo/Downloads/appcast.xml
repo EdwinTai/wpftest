@@ -7,10 +7,10 @@
         <item>
             <title>Version 1.5.5880</title>
             <sparkle:releaseNotesLink>
-                http://localhost:8000/Downloads/relnotes.html
-            </sparkle:releaseNotesLink>
+				https://raw.githubusercontent.com/EdwinTai/wpftest/refs/heads/main/WpfAppDemo/Downloads/relnotes.html
+			</sparkle:releaseNotesLink>
             <pubDate>Fri, 06 Feb 2016 22:49:00 +0100</pubDate>
-            <enclosure url="http://localhost:8000/Downloads/WpfAppDemo.exe"
+            <enclosure url="https://github.com/EdwinTai/wpftest/raw/refs/heads/main/WpfAppDemo/Downloads/WpfAppDemo.exe"
                        sparkle:dsaSignature="MEQCICh10SofkNHa5iJgVWDi2O8RBYyN+nxkFEL7u/tBuWboAiB6VOV/WQMRJE+kRoICZXAhq5b24WkgqcDs0z7gyBkGVw=="
                        sparkle:version="1.5.5880"
                        length="0"

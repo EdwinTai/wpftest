@@ -27,7 +27,7 @@ namespace WpfAppDemo
         private void InitializeWinSparkle()
         {
             // 設定 Appcast URL（更新的 XML 文件）
-            WinSparkleHelper.win_sparkle_set_appcast_url("http://localhost:8000/Downloads/appcast.xml");
+            WinSparkleHelper.win_sparkle_set_appcast_url("https://raw.githubusercontent.com/EdwinTai/wpftest/refs/heads/main/WpfAppDemo/Downloads/appcast.xml");
 
             // 設定應用程式的版本號
             WinSparkleHelper.win_sparkle_set_app_details("aircast", "WpfAppDemo", "1.1.0");
@@ -109,7 +109,7 @@ namespace WpfAppDemo
         private void checkupdate_Click(object sender, RoutedEventArgs e)
         {
             // 初始化 AutoUpdater 並設定更新檔路徑
-            AutoUpdater.Start("http://localhost:8000/Downloads/AutoUpdater.xml");
+            AutoUpdater.Start("https://raw.githubusercontent.com/EdwinTai/wpftest/refs/heads/main/WpfAppDemo/Downloads/AutoUpdater.xml");
 
             // 可選：設定檢查更新事件
             AutoUpdater.CheckForUpdateEvent += AutoUpdater_CheckForUpdateEvent;
